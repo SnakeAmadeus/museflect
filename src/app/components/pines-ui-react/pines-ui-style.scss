@@ -1,0 +1,47 @@
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+button {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.pines-ui-fade-down {
+    animation-duration: 100ms;
+    animation-name: pines-ui-fade-down-animation;
+    animation-timing-function: ease;
+}
+@keyframes pines-ui-fade-down-animation {
+    from {
+        transform: translateY(0.25rem);
+        opacity: 90%;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 100%;
+    }
+}
+
+.pines-ui-fade-right {
+    animation-duration: 200ms;
+    animation-name: pines-ui-fade-right-animation;
+    animation-timing-function: ease-out;
+}
+@keyframes pines-ui-fade-right-animation {
+    from {
+        transform: translateX(calc(100% - 0.25rem));
+        opacity: 0%;
+    }
+
+    to {
+        transform: translateX(100%);
+        opacity: 100%;
+    }
+}
+
+.border {
+    border-style: solid;
+}

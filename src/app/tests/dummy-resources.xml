@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<Resources>
+    <Sonics>
+        <Audio id="1" external-id="a1" label="example-piano-sonata.mp3" data-url="sonics/example.mp3" />
+    </Sonics>
+    <Graphics >
+        <ScoreBook id="2" label="Example Piano Sonata - Example Artist" data-url="graphics/example.pdf">
+            <Movement id="3" label="Movement I. Adagio">
+                <Page id="4" external-id="p1">
+                    <Excerpt id="5" external-id="p1s1" label="Preface">
+                        <Mask id="6" external-id="p1s1m1" label="Song Introduction">
+                            <Command>text "Example Piano Sonata is composed in 2025, &lt;br/&gt;
+                                features polymodality with frequent harmonic solutions, creating satisfying listening experiences"</Command>
+                            <Command>text set-font "Americano"</Command>
+                            <Command>text set-size "18px"</Command>
+                            <Command>pos "(500,258)"</Command>
+                        </Mask>
+                        <Mask id="7" external-id="p1s1m2" label="Denoise Mask">
+                            <Command>pos "(1456,222)"</Command>
+                        </Mask>
+                    </Excerpt>
+                    <Excerpt id="8" external-id="p1s2"></Excerpt>
+                    <Excerpt id="9" external-id="p1s3"></Excerpt>
+                </Page>
+                <Page id="10" external-id="p2">
+                    <Excerpt id="11" external-id="p2s1"></Excerpt>
+                    <Excerpt id="12" external-id="p2s2"></Excerpt>
+                    <Excerpt id="13" external-id="p2s3"></Excerpt>
+                </Page>
+            </Movement>
+            <Movement id="14" label="Movement II. Presto">
+                <Page id="15" external-id="p3">
+                    <Excerpt id="16" external-id="p3s1"></Excerpt>
+                    <Excerpt id="17" external-id="p3s2"></Excerpt>
+                </Page>
+                <Page id="18" external-id="p4">
+                    <Excerpt id="19" external-id="p4s1"></Excerpt>
+                    <Excerpt id="20" external-id="p4s2"></Excerpt>
+                    <Excerpt id="21" external-id="p4s3"></Excerpt>
+                </Page>
+            </Movement>
+        </ScoreBook>
+    </Graphics>
+</Resources>

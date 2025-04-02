@@ -1,0 +1,9 @@
+<!ELEMENT Resources (Sonics,Graphics)>
+<!ELEMENT Sonics (Audio)>
+<!ELEMENT Audio EMPTY>
+<!ATTLIST Audio id NMTOKEN #REQUIRED>
+<!ATTLIST Audio title NMTOKEN #REQUIRED>
+<!ATTLIST Audio data-url CDATA #REQUIRED>
+<!ELEMENT Graphics (ScoreBook)>
+<!ELEMENT ScoreBook (#PCDATA)>
+<!ATTLIST ScoreBook id NMTOKEN #REQUIRED>
